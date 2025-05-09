@@ -25,7 +25,7 @@ Our proposed robotic system features:
 - 6-DOF manipulator arm based on the PUMA560 design
 - Custom two-finger adaptive end-effector for diverse manipulation tasks
 
-<div style="vertical-align:middle"><img src="images/Picture3.jpg" alt="Dataset" width="450px" text-align="center">
+<div style="vertical-align:middle"><img src="images/Picture3.png" alt="Dataset" width="450px" text-align="center">
 </div>
 
 ### Kinematics & Control
