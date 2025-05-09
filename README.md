@@ -2,6 +2,14 @@
 
 This repository contains the design, modeling, and simulation of an autonomous robotic system capable of performing door unlocking and valve manipulation tasks in hazardous environments. The project is inspired by the DARPA Robotics Challenge (DRC) and addresses limitations in mobility, manipulation, and autonomy in constrained spaces.
 
+## Tasks
+
+### Task 1: Door Unlocking and Opening
+### Task 2: Valve Manipulation
+
+<div style="vertical-align:middle"><img src="images/Picture1.png" alt="Dataset" width="450px" text-align="center">
+</div>
+
 ## Overview
 
 Our proposed robotic system features:
@@ -10,13 +18,6 @@ Our proposed robotic system features:
 - Two-finger adaptive end-effector for precise manipulation
 - Advanced sensing and perception systems
 
-## Repository Structure
-
-- `models/`: SolidWorks models of robot components
-- `matlab/`: MATLAB implementation of kinematic modeling and simulation
-- `docs/`: Project documentation and presentations
-- `simulations/`: Simulation results and visualizations
-
 ## Key Features
 
 ### Mechanical Design
@@ -24,10 +25,18 @@ Our proposed robotic system features:
 - 6-DOF manipulator arm based on the PUMA560 design
 - Custom two-finger adaptive end-effector for diverse manipulation tasks
 
+<div style="vertical-align:middle"><img src="images/Picture3.jpg" alt="Dataset" width="450px" text-align="center">
+</div>
+
 ### Kinematics & Control
 - Forward and inverse kinematics implementation
 - Trajectory planning in joint and Cartesian spaces
 - Task-specific motion sequences for door opening and valve manipulation
+
+<div style="vertical-align:middle"><img src="images/Picture7.gif" alt="Dataset" width="350px" text-align="center">
+</div>
+<div style="vertical-align:middle"><img src="images/Picture8.gif" alt="Dataset" width="350px" text-align="center">
+</div>
 
 ### Simulation Results
 The system successfully demonstrates:
@@ -35,13 +44,14 @@ The system successfully demonstrates:
 - 360° valve rotation manipulation
 - Smooth trajectory planning and execution
 
-## Tasks Demonstration
-
-### Task 1: Door Unlocking and Opening
-The robot positions itself in front of a door, uses its perception system to identify the door handle, grasps and manipulates the handle, then pushes the door open.
-
-### Task 2: Valve Manipulation
-The robot positions itself in front of a valve, identifies the valve position and orientation, grasps the valve, and rotates it 360° clockwise to close it.
+<div style="vertical-align:middle"><img src="images/Picture9.jpg" alt="Dataset" width="350px" text-align="center">
+</div>
+<div style="vertical-align:middle"><img src="images/Picture10.jpg" alt="Dataset" width="350px" text-align="center">
+</div>
+<div style="vertical-align:middle"><img src="images/Picture11.jpg" alt="Dataset" width="350px" text-align="center">
+</div>
+<div style="vertical-align:middle"><img src="images/Picture12.jpg" alt="Dataset" width="350px" text-align="center">
+</div>
 
 ## Future Work
 - Physical prototyping and real-world testing
